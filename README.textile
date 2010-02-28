@@ -1,0 +1,22 @@
+h1. Sup?
+
+Activate Terminal is a small Applescript that brings Terminal.app into focus (if it is running) or launches it, if it's not.
+
+h2. Wot.
+
+Right, it doesn't do much really. I have a nice, large Apple keyboard (not the small puny one, that's just for the lulz). It gives me shiny, clicky F13 to F19 keys. What I wanted was to somehow map F13 to bring the Terminal in focus. I use the Terminal a *lot* and this felt like a good productivity boost over Cmd-tab-tab-tab...
+
+h3. Hao?
+
+Open the applescript file in AppleScript Editor.app and hit Run. You'll find it works. Yay.
+To bind this to F13, I made a trigger in Quicksilver. You'll find the Triggers tab in Quicksilver preferences. F13 actually causes Quicksilver to run the script (from where ever you put it). Obviously, you can use any keystroke you fancy. That's it, done.
+
+h2. Quirks.
+
+I wrote this for myself and for Terminal.app only. However, if you read the script, you'll realize it's a piece of cake to modify and fit to your needs. Do it and don't ask me for help. JFGIT.
+
+h2. KTHXBAI
+
+Not so soon. Thanks to "GeneralMaximus":http://blog.uncool.in and the "interwebs":http://www.google.com for the help. I barely expended a milliwatt of brain power for this.
+
+This script is not licensed under any foo bar or baz terms. That's right, not even "WTFPL":http://sam.zoy.org/wtfpl/. Just do what you want and don't bug me.
